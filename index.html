@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analogsea | for logging in</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="logo">
+        <img src="images/logo.png" alt="analog sea logo">
+    </div>
+    <form class="sign-up-box" action="/signup/" method="post">
+        <fieldset name="login-info">
+            <legend>Sign up</legend>
+            <label for="Email">Email</label>
+                <input type="text" name="Email" id="Email" placeholder="foo@bar.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+
+            <label for="password">Password</label>
+            <input type="text" name="Password" id="Password" placeholder="1234passw0rd" required pattern="?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"> <!-- upper+lower+number or special character, min 8 chars -->
+
+        </fieldset>
+    </form>
+</body>
+</html>
