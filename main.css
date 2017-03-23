@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+}
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.sign-up-box {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    }
+legend {
+    font-size: 35px;
+    position: relative;
+    top: 50px;
+}
+fieldset {
+    border: 0;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+fieldset input {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+fieldset label {
+    display: block;
+    margin-bottom: 15px;
+}
+button {
+    display: block;
+    background-color: green;
+    color: white;
+    width: 320px;
+}
