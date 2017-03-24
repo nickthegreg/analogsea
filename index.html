@@ -13,14 +13,14 @@
         <fieldset name="login-info">
             <legend align="center">Sign up</legend>
             <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="foo@bar.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+            <input type="email" name="email" id="email" placeholder="foo@bar.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
 
             <label for="password">Password</label>
             <input type="password" name="password" id="password" placeholder="1234passw0rd" required pattern="?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"> <!-- upper+lower+number or special character, min 8 chars -->
-        <button type="submit">Sign up</button>
+        </fieldset>
+        <button type="submit" class="button">Sign up</button>
         <a href="/forgot-password/new">Forgot password?</a>
-                </fieldset>
-                <p>Already have an account? <a href="">Log in</a></p>
+        <p>Already have an account? <a href="/login">Log in</a></p>
     </form>
 </body>
 </html>
